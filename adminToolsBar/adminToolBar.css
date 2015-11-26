@@ -1,0 +1,30 @@
+@charset "utf-8";
+/**
+* Created by PhpStorm.
+* Author:   ershov-ilya
+* GitHub:   https://github.com/ershov-ilya/
+* About me: http://about.me/ershov.ilya (EN)
+* Website:  http://ershov.pw/ (RU)
+* Date: 26.11.2015
+* Time: 17:24
+*/
+
+/* CSS Document */
+/* AdminToolBar */
+#adminpanel{position:fixed;top:100px;z-index:9999;width:220px;}
+#adminpanel_switch{
+    padding-top: 42px;width: 42px;height: 0;overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-sizing: content-box;
+    background:url(data:image/gif;base64,R0lGODlhKgBUAJEAAFBQUKioqP///xgYGCH5BAAAAAAALAAAAAAqAFQAAAL/nI+py+0Po5y02ouz3hyCIAgB0DlAiApkuYDB8IksDIr1OoRBPWZnqkMAUbiKy7ArGj6vwfESskShAmn18pRkjTJETKTcSr7FWqq51ClNKDQsRAL8ykRtFwGiu2n3B1wxJXSVEOg3KAh4eFDoIObUd7IXs9fwUzh3kCf4N3aD17bkFWQhNtnSR+HYiDrBGOEqAWuIMZqkwITEOjbUx6viw+NpoMOzpnFkOpNgWae8zOMcLT1NXW19jZ2tvc3d7f0NHi4+Tl5uft69o0XJpZsAnWHGngl6XK8g35H/fs+xnzuKxb5/M+QRVGamX7SE8xAGtKYOncSJFCtavIgxY7cCADs=) no-repeat;
+}
+#adminpanel_switch:hover {background-position:0px -42px;height:180px;width:220px;}
+#adminpanel h5{color:#E41E26;font-weight:bold;padding:0;margin:10px 0;font-size: 17px;}
+#adminpanel_plate{background:#181818;width:220px;height:130px;padding:10px;color: #FFF;}
+#adminpanel_plate ul, #adminpanel_plate ul li{margin:0;padding:0;}
+#adminpanel_plate ul li a{font-size:12px;color:#FFF;}
+#adminpanel_plate ul li a:hover{color:#E41E26;text-decoration:underline;}
+
