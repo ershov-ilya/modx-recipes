@@ -9,6 +9,18 @@
  * Time: 12:17
  */
 
+/**
+ * Output filter snippet
+ *
+ * [[*var:money]]
+ * @var string $input значение var
+ *
+ * [[*var:money=`key=value&key=value`]]
+ * @var string $options будет иметь значение key=value&key=value
+ *
+ * @var modX $modx
+ */
+
 $zero=0;
 $str=$input;
 $str=preg_replace('/[^\d\.]/','',$str);
