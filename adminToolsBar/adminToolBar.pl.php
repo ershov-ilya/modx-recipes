@@ -1,5 +1,5 @@
 <?php
- /**
+/**
  * Created by PhpStorm.
  * Author:   ershov-ilya
  * GitHub:   https://github.com/ershov-ilya/
